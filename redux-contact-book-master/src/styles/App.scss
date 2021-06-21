@@ -1,0 +1,21 @@
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  color: #222;
+
+  &:hover {
+    color: #222;
+  }
+}
+select {
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: beige;
+}
